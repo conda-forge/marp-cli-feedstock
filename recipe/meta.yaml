@@ -16,6 +16,9 @@ requirements:
   build:
     - nodejs
     - pnpm
+    - {{ compiler('c') }}
+    - {{ stdlib('c') }}
+    - {{ compiler('cxx') }}
   host:
     - nodejs
     - pnpm
