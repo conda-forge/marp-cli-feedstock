@@ -21,3 +21,5 @@ pnpm install --prod
 
 # generate third party licenses file
 pnpm licenses list --json --prod | pnpm-licenses generate-disclaimer --prod --json-input --output-file=third-party-licenses.txt
+
+rm -rf $PREFIX/lib/node_modules/@marp-team/marp-cli/node_modules/bare-{fs,os}/prebuilds
