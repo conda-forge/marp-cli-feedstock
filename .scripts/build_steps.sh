@@ -97,5 +97,3 @@ fi
 ( startgroup "Final checks" ) 2> /dev/null
 
 touch "${FEEDSTOCK_ROOT}/build_artifacts/conda-forge-build-done-${CONFIG}"
-
-rm -rf "${PREFIX}/lib/node_modules/@marp-team/marp-cli/node_modules/bare-{fs,os}/prebuilds"
