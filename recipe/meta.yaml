@@ -1,5 +1,5 @@
 {% set name = "marp-cli" %}
-{% set version = "4.2.3" %}
+{% set version = "4.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/marp-team/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d275aab7daea8557f4ac87ac56bfa432bd72b6e70b6e82b1515d364b110b4c18
+  sha256: ce87fdb74b73a3aad06b53d233c38e9f2c11b284f7d0adf588e92ebc3caece31
 
 build:
   number: 0
